@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  background-image: linear-gradient(to first-child, gray, #29dea8);
+  --primary: #000000;
+  --color2: #29dea8;
+  --secondary: gray;
+}
+
+body {
+  background-color: black;
+  min-width: 40%;
+}
+
+.navbar a {
+  float: left;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+  display: inline;
+}
+
+.section1 {
+  margin-top: 10px;
+  padding: 2rem;
+  line-height: 2rem;}
+
+h1,
+h2, 
+p {
+  color:#BFBFBF;
+}
+
+.nob {
+  color: #29dea8;
+}
+
+h1,
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  
+}
+p {font-family: Roboto Mono;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left; 
+}
+
+.section2 {
+  left: 109px;
+  margin: 30px;
+   
+}
+
+ .grid-container {
+  display: flex;
+  margin: auto 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 35px;
+  max-width: 950px;
+  padding: 2px 30px;
+  
+}
+
+.grid-container img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.grid-container::after {
+  content: "";
+  width: 350px;
+}
+
+.p1 {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+  
+
+
+.p2 {
+  grid-column: 2/2;
+  grid-row: 1;
+  margin-top: 5rem;
+}
+
+.p3 {
+  grid-column: 2/1;
+  grid-row: 2;
+  
+}
+
+.p4 {
+  grid-column: 2/2;
+  grid-row: 2;
+  margin-top: 5rem;
+}
+
+.ph {
+  position: absolute;
+  margin-top: -100px;
+}
+
+.about,
+.love,
+.work,
+.email {
+  color: #29dea8;
+}
+
+.section3 {
+  top: 2436px;
+  left: 109px;
+  margin: 30px;
+}
+
+h2 {
+  opacity: 40%;
+}
+
+.text {
+  text-align: center;
+}
+
+.section4 {
+  top: 306px;
+  left: 109px;
+  margin: 30px;
+  padding: 5px;
+  margin-bottom: auto;
+}
+
+.footer {
+  border-top: 3px solid #ffffff;
+  margin-top: auto;
+}
+
+.social a {
+  color: gray;
+  word-spacing: 8px;
+  margin-bottom: 10px;
+  width: 25px;
+height: 24px;
+top: 3448px;
+left: 109px;
+text-decoration: none;
+
+}
